@@ -18,5 +18,5 @@ dir2/hello.sh $NAME >> dir1/summary.txt
 mv dir1/summary.txt 'Практическое задание'
 cat 'Практическое задание'
 grep "dir" "Практическое задание" | sort
-cd /
+cd ..
 rm task -r
